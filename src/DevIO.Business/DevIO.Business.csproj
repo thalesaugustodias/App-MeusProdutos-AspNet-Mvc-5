@@ -46,6 +46,9 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Core\Data\IRepository.cs" />
     <Compile Include="Core\Models\Entity.cs" />
+    <Compile Include="Core\Notificacoes\INotification.cs" />
+    <Compile Include="Core\Notificacoes\Notificacao.cs" />
+    <Compile Include="Core\Notificacoes\Notification.cs" />
     <Compile Include="Core\Services\BaseService.cs" />
     <Compile Include="Core\Validations\Documentos\ValidacaoDocs.cs" />
     <Compile Include="Models\Fornecedores\Endereco.cs" />

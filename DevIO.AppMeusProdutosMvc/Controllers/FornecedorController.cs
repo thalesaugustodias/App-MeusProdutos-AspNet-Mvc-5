@@ -1,5 +1,6 @@
 ﻿using DevIO.Business.Models.Fornecedores;
 using DevIO.Business.Models.Fornecedores.Services;
+using DevIO.Infra.Data.Repository;
 using System.Web.Mvc;
 
 namespace DevIO.AppMeusProdutosMvc.Controllers
@@ -10,7 +11,7 @@ namespace DevIO.AppMeusProdutosMvc.Controllers
 
         public FornecedorController()
         {
-            _fornecedorService = new FornecedorService(new FornecedorRepository(), new EnderecoRepository);
+            _fornecedorService = new FornecedorService(new FornecedorRepository(), new EnderecoRepository());
         }
         public ActionResult Index()
         {

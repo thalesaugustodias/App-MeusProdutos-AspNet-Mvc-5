@@ -16,7 +16,7 @@ namespace DevIO.Infra.Data.Context
 
         public DbSet<Produto> Produtos { get; set; }
         public DbSet<Endereco> Enderecos { get; set; }
-        public DbSet<Fornecedor> Fornecedors { get; set; }
+        public DbSet<Fornecedor> Fornecedores { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
